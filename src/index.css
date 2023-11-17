@@ -7,6 +7,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
 
   margin: 0 auto;
   width: 100%;
@@ -21,31 +22,73 @@
   display: flex;
   align-items: center;
   justify-content: center;
+
   gap: 1rem;
   width: 100%;
   max-width: 300px;
   padding: 1rem;
+  margin: 1rem auto;
   border-radius: 10px;
+
   background-color: #fff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease-in-out;
+
+  cursor: pointer;
+}
+
+.categories:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+  background-color: rgb(59 130 246);
 }
 
 /* board */
 
-.boardContaienr {
+.board {
   display: flex;
   align-items: center;
   justify-content: center;
 
-  flex-wrap: wrap;
-  margin: 0 auto;
   width: 100%;
-  max-width: 1200px;
-  padding: 0 15px;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  gap: 2rem;
+  max-width: 300px;
+  height: 150px;
+  border-radius: 10px;
+
+  font-size: 2rem;
+
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+
+  cursor: pointer;
+}
+
+.board:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+  background-color: rgb(59 130 246);
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 1rem;
+  width: 30vw;
+  max-width: 700px;
+  padding: 1rem;
+  margin: 1rem auto;
+  border-radius: 10px;
+
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+
+  cursor: pointer;
 }
 
 .inputBtn {
@@ -53,14 +96,45 @@
   align-items: center;
   justify-content: center;
 
-  margin-top: 1rem;
-
   gap: 1rem;
-  width: 100%;
-  max-width: 200px;
+  width: 10vw;
+  max-width: 700px;
   padding: 1rem;
+  margin: 1rem auto;
   border-radius: 10px;
+
   background-color: #fff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease-in-out;
+
+  cursor: pointer;
+}
+
+.inputBtn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+  background-color: rgb(59 130 246);
+}
+
+/* Header */
+.headerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 90vw;
+
+  margin-top: 1rem;
+}
+
+/* Footer */
+.footerContainer {
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.footerContainer:hover {
+  transform: scale(1.05);
+
+  color: rgb(59 130 246);
 }
