@@ -170,7 +170,7 @@ const TheBible = () => {
             </form>
           </div>
 
-          <div className="flex mt-2 ml-2">
+          <div className="footerContainer">
             <Footer />
           </div>
         </>
