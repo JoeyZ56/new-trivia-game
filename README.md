@@ -2,9 +2,7 @@
 
 # Todo's
 
-### Make categories & Logic
-
-### Score counts and retains score
+### Finish Media Querries
 
 # Categories
 

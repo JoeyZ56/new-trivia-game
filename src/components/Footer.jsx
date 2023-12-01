@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="footerContainer text-2xl">
+    <div className="footerContainer">
       <a href="/">⬅</a>
     </div>
   );

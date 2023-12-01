@@ -97,7 +97,7 @@ const History = () => {
             className="w-[250px]"
             src="https://media.tenor.com/oXhMTmig_EEAAAAj/no1-happy.gif"
           />
-          <a href="/" className="footerContainer mt-3">
+          <a href="/" className="endGameHomeLink">
             Pick a new Categoriy
           </a>
         </div>
@@ -140,7 +140,7 @@ const History = () => {
           </div>
 
           <div className="flex justify-center mt-[80px]">
-            <p className="text-xl">{triviaQuestion}</p>
+            <p className="text-xl max-sm: text-center px-3">{triviaQuestion}</p>
           </div>
           {correctAnswer && (
             <div className="flex justify-center mt-2">
