@@ -2,7 +2,11 @@
 
 # Todo's
 
-### Finish Media Querries
+### Finish Media Queries
+
+### Fix build issues
+
+### fix rendering, when game first loads buttons cant be pressed?
 
 # Categories
 
